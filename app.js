@@ -12,8 +12,8 @@ function PageTransitions(){
             this.className += 'active-btn'
         })
     }
-    // Sections Active Class
-    allSections.addEventListener('click',(e) =>{
+    // Sections Active 
+    allSections.addEventListener('click', (e) =>{
         const id = e.target.dataset.id;
         if(id){
             //remove selected from the other buttons
